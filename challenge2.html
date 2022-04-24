@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"For in" Loop</title>
+</head>
+<body>
+    <h1>Javascript For In Loop</h1>
+    <h3 id="demo"></h3>
+    <script>
+        // const courses = {c1:"C", c2:"C++", c3:"Java", c4:"Python"};
+        const courses = ["C", "C++", "Java", "Python"];
+        let text = "";
+        for (let x in courses)
+        {
+            text += courses[x] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

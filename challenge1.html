@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge1</title>
+</head>
+<body>
+    <h2>Javascript "for" loop</h2>
+    <h3 id="demo"></h3>
+    <script>
+        const chocolates = ["Cadbury", "M&M", "Snickers", "Ferrero Rocher"];
+        let i = 0;
+        let text = "";
+        let length = chocolates.length;
+        for (i; i < length; i++) {
+            text += chocolates[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+        document.getElementById("demo").style.color = "royalblue";
+    </script>
+</body>
+</html>
